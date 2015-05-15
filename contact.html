@@ -43,7 +43,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">09 83 33 48 81</a></li>
         <li><a href="contact.html">Contactez-nous</a></li>
-        <li><a href="#"<button type="button" class="btn btn-danger"><strong>Louer un appart'</strong></button></a></li>
+        <li><a href="#"><button type="button" class="btn btn-danger"><strong>Louer un appart'</strong></button></a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -59,10 +59,10 @@
         <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 
         <script type="text/javascript">
-  var myLatlng = new google.maps.LatLng(48.852937,2.364178);
+  var myLatlng = new google.maps.LatLng(48.884134,2.296351);
 
   var myOptions = {
-      zoom: 14,
+      zoom: 16,
       center: myLatlng,
       mapTypeId: google.maps.MapTypeId.ROADMAP,
       styles: [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":60}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","stylers":[{"visibility":"on"},{"lightness":30}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ef8c25"},{"lightness":40}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"color":"#b6c54c"},{"lightness":40},{"saturation":-40}]},{}]
@@ -77,18 +77,50 @@
 </script>
 
       </div>
+    <id class="contact"></id>
       <div class="col-sm-6">
-        <h1>Contact</h1>
-          <p>
-            <i class="fa fa-map-marker"></i>25 rue du petit Musc
-          </p>
-          <p>
-            <i class="fa fa-mobile"></i>06 00 00 00 00 
-          </p>
+        <h2>Contactez nous</h2>
+    <div class="col-sm-6">
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  <div class="row">
+    <label for="name">Votre Nom:</label><br />
+    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+  </div>
+  <div class="row">
+    <label for="email">Votre e-mail:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+  </div>
+  <div class="row">
+    <label for="message">Votre message:</label><br />
+    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+  </div>
+  <input id="submit_button" type="submit" value="Envoyer" />
+</form>  
       </div>
     </div>  
   </div>
 
+<div class="container">
+  <div class="row">
+    <div class="spacer2"></div>
+
+    <h2>Allindays</h2>
+          <p>
+            <i class="fa fa-map-marker fa-2x"></i>
+              <i> - 131 Boulevard Pereire, 75017 Paris</i>
+          </p>
+          <p>
+            <i class="fa fa-phone fa-2x"></i> 
+              <i> - 09 83 33 48 81</i> 
+          </p>
+          <p>
+            <i class="fa fa-home fa-2x"></i> 
+            <i> - Société par action simplifiée au capital de 10000 EUR</p>
+          <p>Siret - 807 786 868 00016 - Numéro de TVA - FR 13807786868</i>
+          </p>
+    </div>
+  </div>
+</div>
     <div class="vertical-spacer"></div>
 
 

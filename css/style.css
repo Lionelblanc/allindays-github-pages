@@ -67,7 +67,7 @@
 .navbar-transparent .navbar-brand,
 .navbar-transparent .navbar-nav > li > a {
   color: white;
-  line-height: 20px;
+  line-height: 50px;
 }
 
 .navbar-transparent .navbar-nav > li > a:hover,
@@ -90,19 +90,10 @@
 	padding-left: 1em;
 	font-family: Ropa Sans;
 }
-.navbar-brand img {
-}	
-
 .navbar-right {
 	font-family: Helvetica; 
 	font-size: 14px
 }
-.search {
-	font-family: Helvetica; 
-	font-size: 14px;
-	padding-left: 10em;
-	padding-right: 10em;
-
 }
 .highlight p {
 	font-family: Helvetica;
@@ -148,6 +139,3 @@
 	color: black;
 }
 
-#porposer h1 {
-	font-size: 50px;
-}
