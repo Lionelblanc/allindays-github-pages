@@ -26,8 +26,10 @@
 
 #wrapper {
 	background-image: url("../images/background/background.jpg");
-	height: 550px;
+	height: 700px;
 	background-size: cover;
+	max-width:100%;
+	max-width:100%;
 	text-align: center;
 	padding-top: 200px;
 	color: white;
@@ -70,7 +72,7 @@
 .navbar-transparent .navbar-brand,
 .navbar-transparent .navbar-nav > li > a {
   color: white;
-  line-height: 50px;
+  line-height: 30px;
 }
 
 .navbar-transparent .navbar-nav > li > a:hover,
@@ -140,5 +142,9 @@
 	text-align: center;
 	padding-top: 200px;
 	color: black;
+}
+#contact {
+	padding-left: 2em;
+	padding-right: 2em;
 }
 
