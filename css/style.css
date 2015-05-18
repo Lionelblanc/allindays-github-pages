@@ -67,7 +67,7 @@
 .navbar-transparent .navbar-brand,
 .navbar-transparent .navbar-nav > li > a {
   color: white;
-  line-height: 30px;
+  line-height: 50px;
 }
 
 .navbar-transparent .navbar-nav > li > a:hover,
@@ -120,5 +120,4 @@
 	padding-top: 200px;
 	color: black;
 }
-
 
