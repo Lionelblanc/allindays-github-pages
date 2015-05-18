@@ -28,8 +28,6 @@
 	background-image: url("../images/background/background.jpg");
 	height: 700px;
 	background-size: cover;
-	max-width:100%;
-	max-width:100%;
 	text-align: center;
 	padding-top: 200px;
 	color: white;
@@ -41,8 +39,7 @@
 }
 
 #wrapper h2 {
-	font-size: 18px;
-	margin-bottom: 1em; 
+	font-size: 18px; 
 }
 
 .spacer {
@@ -57,16 +54,14 @@
 	letter-spacing: 1 px;
 	font-family: Helvetica;
 	color: black;
-	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
 }
-
 
 .feature img {
 	margin-bottom: 2em;
 }
 
 .navbar-transparent {
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 1);
 }
 
 .navbar-transparent .navbar-brand,
@@ -103,14 +98,6 @@
 .highlight p {
 	font-family: Helvetica;
 	color: black;
-	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
-}
-.highlight h3 {
-	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
-}
-.highlight h2 {
-	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
-	color: black;
 }
 .highlight img {
 	padding-left: 1em; 
@@ -120,16 +107,6 @@
 }
 .vertical-spacer {
 	padding-top: 10em;
-}
-.mutuelle {
-	font-family: Helvetica;
-	color: black;
-	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
-}
-.newsletter	 {
-	font-family: Helvetica;
-	color: black;
-	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
 }
 #subscription{
 	font-family: Helvetica;
@@ -143,8 +120,5 @@
 	padding-top: 200px;
 	color: black;
 }
-#contact {
-	padding-left: 2em;
-	padding-right: 2em;
-}
+
 
