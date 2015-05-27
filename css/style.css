@@ -26,8 +26,10 @@
 
 #wrapper {
 	background-image: url("../images/background/background.jpg");
-	height: 700px;
+	height: 550px;
 	background-size: cover;
+	background-position: 50%;
+  	background-repeat: no-repeat;
 	text-align: center;
 	padding-top: 100px;
 	color: white;
