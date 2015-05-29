@@ -57,15 +57,15 @@
 }
 
 .navbar-transparent {
-	background-color: black;
+	background-color: white;
 }
 
 .navbar-transparent .navbar-brand {
-  color: white;
+  color: black;
   }
 
 .navbar-transparent .navbar-nav > li > a {
-  color: white;
+  color: black;
   line-height: 40px;
 }
 
@@ -75,19 +75,19 @@
 .navbar-transparent .navbar-nav > .open > a,
 .navbar-transparent .navbar-nav > .open > a:hover,
 .navbar-transparent .navbar-nav > .open > a:focus {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.3);
+  color: black;
+  background-color: white;
 }
 
 .navbar-transparent .navbar-brand:hover,
 .navbar-transparent .navbar-brand:active,
 .navbar-transparent .navbar-brand:focus {
-  color: white;
+  color: black;
 }
 .navbar-brand {
 	font-size: 40px;
 	padding-left: 1em;
-	margin-top: 10px;
+	margin-top: 1px;
 	font-family: Ropa Sans;
 }
 .navbar-right {
@@ -116,4 +116,7 @@
 .contaner {
 	margin-left: 2em;
 	margin-right: 2em;
+}
+.navbar-brand img {
+width: 200px;
 }
