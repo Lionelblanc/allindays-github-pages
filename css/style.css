@@ -29,7 +29,6 @@
 	height: 650px;
 	background-position: center;
   	background-repeat: no-repeat;
-  	background-color: #D1BAD3;
 	text-align: center;
 	padding-top: 100px;
 	color: white;
@@ -96,16 +95,6 @@
 	font-size: 14px
 }
 
-.highlight p {
-	font-family: Helvetica;
-	color: black;
-}
-.highlight img {
-	padding-left: 1em; 
-	padding-right: 1em;
-	padding-top: 1em;
-
-}
 .vertical-spacer {
 	padding-top: 10em;
 }
