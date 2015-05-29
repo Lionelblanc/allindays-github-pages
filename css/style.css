@@ -26,7 +26,7 @@
 
 #wrapper {
 	background-image: url("../images/background/background.jpg");
-	height: 650px;
+	background-size: cover;
 	background-position: center;
   	background-repeat: no-repeat;
 	text-align: center;
@@ -113,6 +113,7 @@
 #wrapper2 {
   	background-color: #D1BAD3;
 }
-.container {
-	width: 1024px;
+.contaner {
+	margin-left: 2em;
+	margin-right: 2em;
 }
