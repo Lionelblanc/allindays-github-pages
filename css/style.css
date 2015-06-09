@@ -44,6 +44,11 @@
 .spacer2 {
 	height: 5em;
 	}
+
+#highlight {
+	background-color: #EBEBEB;
+}
+
 .feature p {
 	font-weight: 300;
 	letter-spacing: 1 px;
@@ -113,10 +118,11 @@
 #wrapper2 {
   	background-color: #D1BAD3;
 }
-.contaner {
-	margin-left: 2em;
-	margin-right: 2em;
-}
+
 .navbar-brand img {
 width: 200px;
+}
+
+.thumbnail {
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 }
